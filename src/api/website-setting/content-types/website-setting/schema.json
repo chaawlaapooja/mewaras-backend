@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_settings",
+  "info": {
+    "singularName": "website-setting",
+    "pluralName": "website-settings",
+    "displayName": "Website Settings",
+    "description": "Global website configuration"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "heroCtaText": {
+      "type": "string",
+      "required": true
+    },
+    "heroCtaLink": {
+      "type": "string",
+      "required": true
+    },
+    "heroImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "businessPhone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "whatsappNumber": {
+      "type": "string",
+      "required": true
+    },
+    "whatsappUrl": {
+      "type": "string",
+      "required": true
+    },
+    "instagramUrl": {
+      "type": "string"
+    }
+  }
+}
